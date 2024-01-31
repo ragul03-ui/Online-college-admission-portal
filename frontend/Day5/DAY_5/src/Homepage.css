@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Featured courses styles */
+.featured-courses {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-courses h2 {
+  color: #333;
+}
+
+.featured-courses ul {
+  list-style: none;
+}
+
+.featured-courses li {
+  margin-bottom: 5px;
+}
+
+/* Apply now styles */
+.apply-now {
+  background-color: #ecf0f1;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.apply-now h2 {
+  color: #333;
+}
+
+.apply-now p {
+  margin-bottom: 15px;
+}
+
+.apply-now button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-now button:hover {
+  background-color: #27ae60;
+}
+
+/* About us styles */
+.about-us {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  color: #333;
+}
+
+.about-us p {
+  margin-bottom: 15px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #3498db;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
