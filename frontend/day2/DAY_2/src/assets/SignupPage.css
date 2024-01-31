@@ -1,0 +1,101 @@
+/* Add this CSS to your existing SignupPage.css */
+
+.main-w3layouts {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.main-agileinfo {
+  margin-top: 20px;
+}
+
+.agileits-top {
+  padding: 20px 0;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+.text, .email, .w3lpass {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.anim {
+  display: inline-block;
+  position: relative;
+}
+
+.checkbox,
+.anim span {
+  vertical-align: middle;
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox + span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.checkbox:checked + span {
+  background-color: #4CAF50;
+}
+
+.clear {
+  clear: both;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.colorlibcopy-agile {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.colorlibcopy-agile a {
+  color: #333;
+}
